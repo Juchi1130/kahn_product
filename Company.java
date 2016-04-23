@@ -1,16 +1,16 @@
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Company {
-	private ArrayList products;
+	private LinkedList products;
 	private String name;
 	
 	public Company() {
 		setName("IBM");
-		products = new ArrayList(1000);
+		products = new LinkedList(1000);
 
 	public Company(String name) {
 		setName(name);
-		products = new ArrayList(1000);
+		products = new LinkedList(1000);
 	}
 }
