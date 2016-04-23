@@ -2,15 +2,8 @@
 import java.util.*;
 
 public class Company {
-	private LinkedList products;
-	private String name;
+	private TreeSet products;
 	
 	public Company() {
-		setName("IBM");
-		products = new LinkedList(1000);
-
-	public Company(String name) {
-		setName(name);
-		products = new LinkedList(1000);
-	}
+		products = new TreeSet(1000);
 }
