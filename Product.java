@@ -9,7 +9,6 @@ public class Product {
 	public Product(){
 		setName("Coca-Cola");	
 	}	
-	//-----get + set--------------
 	public String getName() {
 	return name;
 	}
