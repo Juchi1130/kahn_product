@@ -3,19 +3,15 @@ public class Product {
 
 	
 	public Product(String name) {
-		setName(name);
-	
+		setName(name);	
 	}
-
 	public Product(){
-		setName("Coca-Cola");
-	
-	}
-	
+		setName("Coca-Cola");	
+	}	
+	//-----get + set--------------
 	public String getName() {
-		return name;
+	return name;
 	}
-	
 	public void setName(String name) {
 		this.name = name;
 	}
