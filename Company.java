@@ -6,5 +6,4 @@ public class Company {
 	
 	public Company() {
 		products = new TreeSet(1000);
-	}
 }
